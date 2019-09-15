@@ -1,5 +1,5 @@
 import turtle
-size=15
+size = 15
 turtle.pensize(15)
 for i in range(7):
     if i == 0:
@@ -17,8 +17,8 @@ for i in range(7):
     if i == 6:
         turtle.color('red')
     turtle.circle(size)
-    size+=15
-    if i==6:
+    size += 15
+    if i == 6:
         break
     turtle.seth(-90)
     turtle.penup()
